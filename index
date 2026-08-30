@@ -1,37 +1,13 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
+    <base target="_top">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ระบบบันทึกการอบรม - โรงเรียนบ้านพระพุทธ</title>
-    
-    <!-- ฝังภาพไอคอนเว็บไซต์ (Favicon) เป็นโลโก้โรงเรียน -->
-    <link rel="icon" href="https://img1.pic.in.th/images/logoppp.png" type="image/png">
-    
-    <style>
-        /* ลบขอบขาวรอบหน้าจอและตั้งค่าให้แสดงผลเต็มพื้นที่ 100% */
-        body, html {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden; /* ซ่อนแถบเลื่อนของหน้าหลัก GitHub */
-            background-color: #e0c3fc;
-        }
-        
-        /* ตั้งค่ากรอบ Iframe ให้เต็มจอไร้ขอบเขต */
-        iframe {
-            width: 100vw;
-            height: 100vh;
-            border: none;
-            display: block;
-        }
-    </style>
+    <title>ระบบบันทึกและรายงานการอบรมพัฒนาตนเอง</title>
 </head>
 <body>
-
-    <!-- นำลิงก์ Web App จาก Google Apps Script มาใส่ในช่อง src ด้านล่างนี้ -->
-    <iframe src="https://script.google.com/macros/s/AKfycbxtyMpMIXvSiKKk09YcVUlIVx_K13o7uTcL1-v3s0IZVwMoEL4PnPQ_-NoOdtf-g6au0g/exec"></iframe>
-
+    <iframe style="width: 100%; height: 100vh;" scrolling="yes" src="https://script.google.com/macros/s/AKfycbxtyMpMIXvSiKKk09YcVUlIVx_K13o7uTcL1-v3s0IZVwMoEL4PnPQ_-NoOdtf-g6au0g/exec" frameborder="0"></iframe>
 </body>
 </html>
